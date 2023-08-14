@@ -1,0 +1,87 @@
+body{
+    background-color: #3f3f3f;
+}
+
+.grid-area {
+    padding: 200px 0px 0px 0px;
+    justify-content: center;
+    width: 400px;
+    height: 400px;
+    margin: 0 auto;
+    display: grid;
+    grid-gap: 0;
+    grid-template-columns: auto auto auto auto;
+    grid-template-rows:  auto auto auto auto;
+    grid-auto-flow: row;
+    align-items: center;
+}
+.square {
+    width: 100px;
+    height: 100px;
+    cursor: pointer;
+    justify-content: center;
+    align-items: center;
+    background-color: #fcfcfc;
+}
+
+
+.color{
+    background-color: rgb(161, 161, 161);
+}
+
+.timer{
+    display: flex;
+    font-size: 50px;
+    justify-content: center;
+}
+
+/*===============================================*/
+
+#stopwatch-container {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: 100px auto 0;
+    width: fit-content;
+    padding: 10px 20px;
+    border-radius: 5px;
+  }
+   
+  #stopwatch {
+    margin: 0 auto;
+    text-align: center;
+    font-size: 60px;
+  }
+   
+  #buttons-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+   
+  #buttons-container button {
+    outline: none;
+    cursor: pointer;
+    color: #ffffff;
+    background-color:#000;
+    border: none;
+    border-radius: 5px;
+    font-size: 20px;
+    margin: 0 10px;
+    padding: 3px 8px;
+  }
+   
+  #buttons-container button:active {
+    opacity: 0.7;
+  }
+
+.bombImg{
+  background-image: url(/img/bomb.png);
+}
+
+
+
+
+
+
+
